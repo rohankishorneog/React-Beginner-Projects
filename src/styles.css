@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.task-lists {
+  display: flex;
+  justify-content: space-around;
+  margin: 3%;
+}
+
+.task-lists ul li {
+  list-style-type: none;
+}
+
+.todo-list,
+.completed-list {
+  border: solid black 1px;
+  width: 100%;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
